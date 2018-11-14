@@ -12,13 +12,14 @@
    Filename: sf_effects.css
 
 */
-
+/* Underneath, for the body header styles, I have added drop shadows to the body page so that both the right and left sides will have a slight shadow and so the page content pops out more. */
 /* Body Header Styles */
 body {
     filter: drop-shadow(rgb(51, 51, 51) 10px 10px 50px);
     filter: drop-shadow(rgb(51, 51, 51) -10px 10px 50px);
 }
 
+/* For the Nav styles, I have created a background image that will show up behind the "tabs" and also made the tabs into 3d objects so their content looks kinda curved or slanted. */
 /* Navigation Tabs List Styles */
 body>header nav.tabs {
     background: url(sf_back1.png) center center/ 100% no-repeat;
@@ -32,6 +33,7 @@ body>header nav.tabs li:hover {
     background-color: rgb(231, 231, 231);
 }
 
+/* In the lines of code below, I have changed the left nav so that its edges appear curved and so that it's outlined with a blue line. */
 /* Left Section Styles */
 section#left nav.vertical {
     border: solid 1px rgb(20, 167, 170);
@@ -43,6 +45,7 @@ section#left nav.vertical h1 {
     border-top-right-radius: 25px;
 }
 
+/* Underneath, for the center page item, I have given it a radial gradient that appears gray on the inner sides and slowly fades to white. This makes sure that the item and its contents don't blend into the rest of the page, I have also given it a grey outline and outer shadow. */
 /* Center Article Styles */
 section#center article {
     background: radial-gradient(white 30%, rgb(151, 151, 151));
@@ -51,6 +54,7 @@ section#center article {
     box-shadow: rgb(51, 51, 51) 10px 10px 20px;
 }
 
+/* Finally, for the block quotes, I have given them background images that appear as speech bubbles and given the quotes a shadow. */
 /* Blockquote Styles */
 blockquote {
     background: url(sf_speech.png) no-repeat;
